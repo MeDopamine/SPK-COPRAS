@@ -3,7 +3,7 @@
         <div class="sidebar-header">
             <div class="d-flex justify-content-between">
                 <div class="logo">
-                    <a href="./">SPK_SAW PEMILIHAN SEPEDA MOTOR</a>
+                    <a href="./">SPK_COPRAS PEMILIHAN SEPEDA MOTOR</a>
                 </div>
                 <div class="toggler">
                     <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>

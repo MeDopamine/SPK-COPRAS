@@ -382,7 +382,6 @@ while ($row = $result->fetch_object()) {
   array_push($array_relatif, $bobot_relatif);
   $total_relatif = round(array_sum($array_relatif), 3);
   $relatif2 = round(($bobot_ternormalisasi_C1*212.436), 3);
-  $relatif3 = $benefit + ()
   echo "<tr class='center'>
   <th>S<sub>{$row->id_alternative}</sub></th>
   <td>" . $bobot_relatif . "</td>

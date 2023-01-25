@@ -19,7 +19,7 @@
         <div class="row h-100">
             <div class="col-lg-5 col-12">
                 <div id="auth-left">
-                    <h4 class="auth-title">Login spk_saw</h4>
+                    <h4 class="auth-title">Login spk_Copras</h4>
                     <form action="login-act.php" method="post">
                         <div class="form-group position-relative has-icon-left mb-4">
                             <input type="text" class="form-control form-control-xl" placeholder="Username" name="username">
