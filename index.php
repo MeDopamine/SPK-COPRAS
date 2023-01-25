@@ -19,35 +19,15 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4>Sistem Pendukung Keputusan pemilihan sepeda motor matic terbaik pada yamaha anugrah motor cikarang</h4>
+                                    <h4>Sistem Pendukung Keputusan pemilihan sepeda motor matic terbaik</h4>
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">
                                         <p class="card-text">
-                                            Metode Simple Additive Weighting (SAW) sering juga dikenal istilah metode
-                                            penjumlahan terbobot. Konsep dasar metode SAW adalah mencari penjumlahan
-                                            terbobot dari rating kinerja pada setiap alternatif pada semua atribut. 
-                                            SAW dapat dianggap sebagai cara yang paling mudah.
+                                        Metode COPRAS digunakan untuk menganalisis alternatif yang berbeda, dan memperkirakan alternatif sesuai dengan tingkat utilitasnya dimana nilai-nilai dari atribut dinyatakan dalam interval untuk meningkatkan efisiensi dan meningkatkan akurasi dalam proses pengambilan keputusan.
                                         </p>
                                         <hr>
-                                        <p class="card-text">
-                                            Langkah Penyelesaian Simple Additive Weighting (SAW) adalah sebagai berikut
-                                            :
-                                        </p>
-                                        <ol type="1">
-                                            <li>Menentukan kriteria-kriteria yang akan dijadikan acuan dalam pengambilan
-                                                keputusan, yaitu Ci</i>
-                                            <li>Menentukan rating kecocokan setiap alternatif pada setiap kriteria (X).
-                                            </li>
-                                            <li>Membuat matriks keputusan berdasarkan kriteria(Ci), kemudian melakukan
-                                                normalisasi matriks berdasarkan persamaan yang disesuaikan dengan jenis
-                                                atribut (atribut keuntungan ataupun atribut biaya) sehingga diperoleh
-                                                matriks ternormalisasi R.</li>
-                                            <li>Hasil akhir diperoleh dari proses perankingan yaitu penjumlahan dari
-                                                perkalian matriks ternormalisasi R dengan vektor bobot sehingga
-                                                diperoleh nilai terbesar yang dipilih sebagai alternatif terbaik
-                                                (Ai)sebagai solusi</li>
-                                        </ol>
+                                        
                                     </div>
                                 </div>
                             </div>
