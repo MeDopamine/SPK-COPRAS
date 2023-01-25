@@ -44,13 +44,6 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="preferensi.php" class='sidebar-link'>
-                        <i class="bi bi-bar-chart-fill"></i>
-                        <span>Nilai Preferensi</span>
-                    </a>
-                </li>
-
-                <li class="sidebar-item">
                     <a href="logout.php" class='sidebar-link'>
                         <i class="bi bi-box-arrow-right"></i>
                         <span>Logout</span>
