@@ -390,11 +390,11 @@ while ($row = $result->fetch_object()) {
   $bobot_relatif = round((1/$bobot_ternormalisasi_C1), 3);
   array_push($array_relatif, $bobot_relatif);
   $total_relatif = round(array_sum($array_relatif), 3);
-  $relatif2 = round(($bobot_ternormalisasi_C1*212.436), 3);
+  // $relatif2 = round(($bobot_ternormalisasi_C1*212.436), 3);
 
-  $relatif3 = round($benefit+(0.300/$relatif2), 3);
-  array_push($array_maxq, $relatif3);
-  $maxq = max($array_maxq);
+  // $relatif3 = round($benefit+(0.300/$relatif2), 3);
+  // array_push($array_maxq, $relatif3);
+  // $maxq = max($array_maxq);
   echo "<tr class='center'>
   <th>S<sub>{$row->id_alternative}</sub></th>
   <td>" . $bobot_relatif . "</td>
@@ -405,7 +405,7 @@ while ($row = $result->fetch_object()) {
 $getTotal_relatif = $total_relatif;
 $getTotal_cost = $total_cost;
 
-$getMaxq = $maxq;
+
 echo "
   <tr class='center'>
   <th>Total</th>
