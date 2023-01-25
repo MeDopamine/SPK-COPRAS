@@ -393,10 +393,13 @@ while ($row = $result->fetch_object()) {
   array_push($array_relatif, $bobot_relatif);
   $total_relatif = round(array_sum($array_relatif), 3);
   $relatif2 = round(($bobot_ternormalisasi_C1*212.436), 3);
+<<<<<<< HEAD
 
   $relatif3 = round($benefit+(0.300/$relatif2), 3);
   array_push($array_maxq, $relatif3);
   $maxq = max($array_maxq);
+=======
+>>>>>>> b59c6889b804374d4008a88f80b2762accd04e2b
   echo "<tr class='center'>
   <th>S<sub>{$row->id_alternative}</sub></th>
   <td>" . $bobot_relatif . "</td>
