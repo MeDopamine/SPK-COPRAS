@@ -34,33 +34,31 @@ require "R.php";
                   </div>
                   <div class="table-responsive">
                     <table class="table table-striped mb-0">
-                    <caption>
-    Nilai Preferensi (P)Dari perhitungan bobot tersebut untuk pemilihan sepeda motor matic dengan nilai
-maximal atau tertinggi terdapat pada V2 sehingga sepeda motor matic  Nmax 155 yang menjadi urutan pertama 
-dalam pemilihan sepeda motor matic terbaik. 
-
-  </caption>
-  <tr>
-    <th>No</th>
-    <th>Alternatif</th>
-    <th>Hasil</th>
-  </tr>
-  <?php
-
-$P = array();
-$m = count($W);
-$no = 0;
-foreach ($R as $i => $r) {
-    for ($j = 0; $j < $m; $j++) {
-        $P[$i] = (isset($P[$i]) ? $P[$i] : 0) + $r[$j] * $W[$j];
-    }
-    echo "<tr class='center'>
-            <td>" . (++$no) . "</td>
-            <td>A{$i}</td>
-            <td>{$P[$i]}</td>
-          </tr>";
-}
-?>
+                      <caption>
+                            Nilai Preferensi (P)Dari perhitungan bobot tersebut untuk pemilihan sepeda motor matic dengan nilai
+                        maximal atau tertinggi terdapat pada V2 sehingga sepeda motor matic  Nmax 155 yang menjadi urutan pertama 
+                        dalam pemilihan sepeda motor matic terbaik. 
+                      </caption>
+                      <tr>
+                        <th>No</th>
+                        <th>Alternatif</th>
+                        <th>Hasil</th>
+                      </tr>
+                      <?php
+                      $P = array();
+                      $m = count($W);
+                      $no = 0;
+                      foreach ($R as $i => $r) {
+                          for ($j = 0; $j < $m; $j++) {
+                              $P[$i] = (isset($P[$i]) ? $P[$i] : 0) + $r[$j] * $W[$j];
+                          }
+                          echo "<tr class='center'>
+                                  <td>" . (++$no) . "</td>
+                                  <td>A{$i}</td>
+                                  <td>{$P[$i]}</td>
+                                </tr>";
+                      }
+                      ?>
                     </table>
                   </div>
                 </div>

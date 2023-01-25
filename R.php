@@ -19,7 +19,6 @@ while ($row = $result->fetch_object()) {
     array_push($X[2], round($row->C2, 2));
     array_push($X[3], round($row->C3, 2));
     array_push($X[4], round($row->C4, 2));
-    array_push($X[5], round($row->C5, 2));
 }
 $result->free();
 
